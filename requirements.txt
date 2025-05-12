@@ -1,0 +1,12 @@
+docopt==0.6.2
+opencv-python~=4.8.1.78
+
+# TensorFlow wheel for ARM architecture
+# Download and install manually:
+# pip install tensorflow-2.5.0-cp37-none-linux_armv7l.whl
+
+websockets~=14.1
+numpy~=1.22.4
+Pillow~=9.2.0
+aiohttp~=3.10.11
+psutil~=5.9.1

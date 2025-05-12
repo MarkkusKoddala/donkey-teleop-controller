@@ -1,0 +1,167 @@
+
+{"type": "sys", "cpu": 44.8, "mem_mb": 437.04296875, "timestamp": 1746033111075}
+{"type": "sys", "cpu": 44.4, "mem_mb": 432.71875, "timestamp": 1746033112088}
+{"type": "sys", "cpu": 46.7, "mem_mb": 471.796875, "timestamp": 1746033113091}
+{"type": "sys", "cpu": 43.1, "mem_mb": 413.08984375, "timestamp": 1746033114094}
+{"type": "sys", "cpu": 46.4, "mem_mb": 454.23828125, "timestamp": 1746033115112}
+{"type": "sys", "cpu": 46.8, "mem_mb": 493.28125, "timestamp": 1746033116114}
+{"type": "sys", "cpu": 43.4, "mem_mb": 535.25390625, "timestamp": 1746033117125}
+{"type": "sys", "cpu": 43.5, "mem_mb": 441.41015625, "timestamp": 1746033118154}
+{"type": "sys", "cpu": 42.4, "mem_mb": 480.8125, "timestamp": 1746033119163}
+{"type": "sys", "cpu": 44.7, "mem_mb": 519.1640625, "timestamp": 1746033120167}
+{"type": "sys", "cpu": 44.3, "mem_mb": 417.41796875, "timestamp": 1746033121172}
+{"type": "sys", "cpu": 50.5, "mem_mb": 456.69921875, "timestamp": 1746033122176}
+{"type": "sys", "cpu": 44.5, "mem_mb": 496.53125, "timestamp": 1746033123180}
+{"type": "sys", "cpu": 41.2, "mem_mb": 534.50390625, "timestamp": 1746033124197}
+{"type": "sys", "cpu": 44.3, "mem_mb": 433.453125, "timestamp": 1746033125214}
+{"type": "sys", "cpu": 46.6, "mem_mb": 471.64453125, "timestamp": 1746033126216}
+{"type": "sys", "cpu": 41.9, "mem_mb": 509.53125, "timestamp": 1746033127220}
+{"type": "sys", "cpu": 44.5, "mem_mb": 549.4453125, "timestamp": 1746033128246}
+{"type": "sys", "cpu": 42.4, "mem_mb": 445.77734375, "timestamp": 1746033129255}
+{"type": "sys", "cpu": 42.2, "mem_mb": 487.0078125, "timestamp": 1746033130259}
+{"type": "sys", "cpu": 43.4, "mem_mb": 526.078125, "timestamp": 1746033131267}
+{"type": "sys", "cpu": 43.6, "mem_mb": 414.234375, "timestamp": 1746033132271}
+{"type": "sys", "cpu": 42.5, "mem_mb": 452.66796875, "timestamp": 1746033133294}
+{"type": "sys", "cpu": 41.0, "mem_mb": 492.69140625, "timestamp": 1746033134314}
+{"type": "sys", "cpu": 44.2, "mem_mb": 531.41796875, "timestamp": 1746033135318}
+{"type": "sys", "cpu": 42.7, "mem_mb": 425.0078125, "timestamp": 1746033136328}
+{"type": "ap_switch", "bssid": "1C:D1:E0:3D:7B:AE", "timestamp": 1746033136806}
+{"type": "mode_auto_switch", "mode": "auto", "timestamp": 1746033137065}
+{"type": "sys", "cpu": 50.9, "mem_mb": 416.39453125, "timestamp": 1746033137335}
+{"type": "sys", "cpu": 59.5, "mem_mb": 415.46484375, "timestamp": 1746033138356}
+{"type": "sys", "cpu": 57.9, "mem_mb": 417.45703125, "timestamp": 1746033139361}
+{"type": "sys", "cpu": 56.6, "mem_mb": 415.859375, "timestamp": 1746033140372}
+{"type": "sys", "cpu": 58.4, "mem_mb": 419.10546875, "timestamp": 1746033141375}
+{"type": "sys", "cpu": 60.0, "mem_mb": 409.7265625, "timestamp": 1746033142381}
+{"type": "sys", "cpu": 57.1, "mem_mb": 421.26171875, "timestamp": 1746033143388}
+{"type": "mode_auto_switch", "mode": "manual", "timestamp": 1746033143609}
+{"type": "sys", "cpu": 46.6, "mem_mb": 458.359375, "timestamp": 1746033144403}
+{"type": "sys", "cpu": 44.9, "mem_mb": 496.88671875, "timestamp": 1746033145413}
+{"type": "sys", "cpu": 42.2, "mem_mb": 442.40234375, "timestamp": 1746033146423}
+{"type": "sys", "cpu": 46.1, "mem_mb": 477.87109375, "timestamp": 1746033147428}
+{"type": "sys", "cpu": 46.7, "mem_mb": 516.01953125, "timestamp": 1746033148435}
+{"type": "sys", "cpu": 43.7, "mem_mb": 423.18359375, "timestamp": 1746033149453}
+{"type": "sys", "cpu": 46.0, "mem_mb": 460.71484375, "timestamp": 1746033150458}
+{"type": "sys", "cpu": 46.4, "mem_mb": 499.83203125, "timestamp": 1746033151460}
+{"type": "sys", "cpu": 46.3, "mem_mb": 537.8203125, "timestamp": 1746033152465}
+{"type": "sys", "cpu": 45.3, "mem_mb": 431.94921875, "timestamp": 1746033153468}
+{"type": "sys", "cpu": 45.2, "mem_mb": 467.1484375, "timestamp": 1746033154471}
+{"type": "sys", "cpu": 42.5, "mem_mb": 507.0546875, "timestamp": 1746033155477}
+{"type": "sys", "cpu": 46.2, "mem_mb": 546.78125, "timestamp": 1746033156484}
+{"type": "sys", "cpu": 43.4, "mem_mb": 447.0546875, "timestamp": 1746033157507}
+{"type": "mode_auto_switch", "mode": "auto", "timestamp": 1746033157560}
+{"type": "mode_auto_switch", "mode": "manual", "timestamp": 1746033158085}
+{"type": "mode_auto_switch", "mode": "auto", "timestamp": 1746033158265}
+{"type": "mode_auto_switch", "mode": "manual", "timestamp": 1746033158381}
+{"type": "sys", "cpu": 52.0, "mem_mb": 465.38671875, "timestamp": 1746033158570}
+{"type": "sys", "cpu": 43.9, "mem_mb": 502.21484375, "timestamp": 1746033159574}
+{"type": "sys", "cpu": 43.0, "mem_mb": 416.06640625, "timestamp": 1746033160577}
+{"type": "sys", "cpu": 44.3, "mem_mb": 455.73828125, "timestamp": 1746033161605}
+{"type": "sys", "cpu": 44.0, "mem_mb": 493.76171875, "timestamp": 1746033162610}
+{"type": "sys", "cpu": 44.6, "mem_mb": 531.1640625, "timestamp": 1746033163620}
+{"type": "sys", "cpu": 40.4, "mem_mb": 431.58984375, "timestamp": 1746033164622}
+{"type": "sys", "cpu": 44.0, "mem_mb": 470.0234375, "timestamp": 1746033165629}
+{"type": "sys", "cpu": 41.2, "mem_mb": 508.17578125, "timestamp": 1746033166633}
+{"type": "sys", "cpu": 41.4, "mem_mb": 548.86328125, "timestamp": 1746033167642}
+{"type": "sys", "cpu": 42.3, "mem_mb": 441.96875, "timestamp": 1746033168660}
+{"type": "sys", "cpu": 43.8, "mem_mb": 477.9609375, "timestamp": 1746033169663}
+{"type": "sys", "cpu": 41.8, "mem_mb": 520.82421875, "timestamp": 1746033170668}
+{"type": "sys", "cpu": 41.5, "mem_mb": 412.484375, "timestamp": 1746033171723}
+{"type": "sys", "cpu": 43.7, "mem_mb": 451.9296875, "timestamp": 1746033172727}
+{"type": "sys", "cpu": 44.3, "mem_mb": 493.6796875, "timestamp": 1746033173746}
+{"type": "sys", "cpu": 42.7, "mem_mb": 533.11328125, "timestamp": 1746033174748}
+{"type": "sys", "cpu": 46.6, "mem_mb": 427.51953125, "timestamp": 1746033175754}
+{"type": "mode_auto_switch", "mode": "auto", "timestamp": 1746033176455}
+{"type": "mode_auto_switch", "mode": "manual", "timestamp": 1746033176591}
+{"type": "sys", "cpu": 47.0, "mem_mb": 462.09765625, "timestamp": 1746033176760}
+{"type": "mode_auto_switch", "mode": "auto", "timestamp": 1746033177533}
+{"type": "sys", "cpu": 51.0, "mem_mb": 488.29296875, "timestamp": 1746033177767}
+{"type": "ap_switch", "bssid": "1C:D1:E0:45:1B:4E", "timestamp": 1746033178374}
+{"type": "sys", "cpu": 56.5, "mem_mb": 486.53125, "timestamp": 1746033178771}
+{"type": "sys", "cpu": 55.4, "mem_mb": 412.33203125, "timestamp": 1746033179778}
+{"type": "sys", "cpu": 57.1, "mem_mb": 414.51171875, "timestamp": 1746033180801}
+{"type": "sys", "cpu": 57.3, "mem_mb": 416.5, "timestamp": 1746033181816}
+{"type": "sys", "cpu": 64.8, "mem_mb": 413.01171875, "timestamp": 1746033182823}
+{"type": "sys", "cpu": 58.0, "mem_mb": 416.84765625, "timestamp": 1746033183829}
+{"type": "sys", "cpu": 58.9, "mem_mb": 417.3671875, "timestamp": 1746033184880}
+{"type": "sys", "cpu": 55.1, "mem_mb": 414.04296875, "timestamp": 1746033185901}
+{"type": "sys", "cpu": 60.6, "mem_mb": 414.57421875, "timestamp": 1746033186903}
+{"type": "sys", "cpu": 58.3, "mem_mb": 413.95703125, "timestamp": 1746033187913}
+{"type": "sys", "cpu": 55.9, "mem_mb": 427.32421875, "timestamp": 1746033188921}
+{"type": "sys", "cpu": 54.7, "mem_mb": 442.3828125, "timestamp": 1746033189926}
+{"type": "mode_auto_switch", "mode": "manual", "timestamp": 1746033190378}
+{"type": "sys", "cpu": 51.1, "mem_mb": 470.34375, "timestamp": 1746033190937}
+{"type": "sys", "cpu": 43.2, "mem_mb": 415.6953125, "timestamp": 1746033191941}
+{"type": "sys", "cpu": 43.9, "mem_mb": 453.4921875, "timestamp": 1746033192943}
+{"type": "sys", "cpu": 43.4, "mem_mb": 493.23046875, "timestamp": 1746033193957}
+{"type": "sys", "cpu": 42.4, "mem_mb": 532.49609375, "timestamp": 1746033194966}
+{"type": "sys", "cpu": 42.7, "mem_mb": 430.52734375, "timestamp": 1746033195970}
+{"type": "sys", "cpu": 43.0, "mem_mb": 470.01953125, "timestamp": 1746033196984}
+{"type": "sys", "cpu": 40.9, "mem_mb": 513.671875, "timestamp": 1746033197995}
+{"type": "sys", "cpu": 41.6, "mem_mb": 548.30859375, "timestamp": 1746033199019}
+{"type": "sys", "cpu": 44.2, "mem_mb": 443.95703125, "timestamp": 1746033200022}
+{"type": "sys", "cpu": 44.0, "mem_mb": 484.8828125, "timestamp": 1746033201034}
+{"type": "sys", "cpu": 42.2, "mem_mb": 522.8984375, "timestamp": 1746033202041}
+{"type": "sys", "cpu": 43.6, "mem_mb": 418.609375, "timestamp": 1746033203043}
+{"type": "mode_auto_switch", "mode": "auto", "timestamp": 1746033203555}
+{"type": "mode_auto_switch", "mode": "manual", "timestamp": 1746033203663}
+{"type": "mode_auto_switch", "mode": "auto", "timestamp": 1746033204024}
+{"type": "sys", "cpu": 42.5, "mem_mb": 451.9375, "timestamp": 1746033204055}
+{"type": "ap_switch", "bssid": "1C:D1:E0:3C:16:4E", "timestamp": 1746033204598}
+{"type": "sys", "cpu": 59.2, "mem_mb": 450.296875, "timestamp": 1746033205059}
+{"type": "sys", "cpu": 57.1, "mem_mb": 450.08203125, "timestamp": 1746033206065}
+{"type": "sys", "cpu": 56.1, "mem_mb": 451.20703125, "timestamp": 1746033207088}
+{"type": "sys", "cpu": 54.8, "mem_mb": 449.66015625, "timestamp": 1746033208092}
+{"type": "sys", "cpu": 56.8, "mem_mb": 449.8828125, "timestamp": 1746033209099}
+{"type": "sys", "cpu": 56.9, "mem_mb": 451.453125, "timestamp": 1746033210104}
+{"type": "sys", "cpu": 59.1, "mem_mb": 465.37109375, "timestamp": 1746033211138}
+{"type": "mode_auto_switch", "mode": "manual", "timestamp": 1746033211943}
+{"type": "sys", "cpu": 55.3, "mem_mb": 481.5078125, "timestamp": 1746033212160}
+{"type": "sys", "cpu": 45.1, "mem_mb": 443.06640625, "timestamp": 1746033213164}
+{"type": "sys", "cpu": 46.0, "mem_mb": 482.1953125, "timestamp": 1746033214167}
+{"type": "sys", "cpu": 45.5, "mem_mb": 521.78125, "timestamp": 1746033215179}
+{"type": "sys", "cpu": 44.5, "mem_mb": 421.3828125, "timestamp": 1746033216194}
+{"type": "sys", "cpu": 45.3, "mem_mb": 459.69140625, "timestamp": 1746033217202}
+{"type": "sys", "cpu": 44.7, "mem_mb": 499.015625, "timestamp": 1746033218213}
+{"type": "mode_auto_switch", "mode": "auto", "timestamp": 1746033218834}
+{"type": "mode_auto_switch", "mode": "manual", "timestamp": 1746033218940}
+{"type": "sys", "cpu": 46.8, "mem_mb": 534.87890625, "timestamp": 1746033219225}
+{"type": "sys", "cpu": 43.6, "mem_mb": 432.69140625, "timestamp": 1746033220228}
+{"type": "sys", "cpu": 43.9, "mem_mb": 470.9921875, "timestamp": 1746033221233}
+{"type": "sys", "cpu": 44.2, "mem_mb": 510.50390625, "timestamp": 1746033222239}
+{"type": "sys", "cpu": 45.0, "mem_mb": 545.7734375, "timestamp": 1746033223255}
+{"type": "sys", "cpu": 44.1, "mem_mb": 445.28125, "timestamp": 1746033224265}
+{"type": "sys", "cpu": 41.8, "mem_mb": 490.51953125, "timestamp": 1746033225319}
+{"type": "sys", "cpu": 42.3, "mem_mb": 526.0078125, "timestamp": 1746033226328}
+{"type": "sys", "cpu": 43.3, "mem_mb": 418.35546875, "timestamp": 1746033227331}
+{"type": "sys", "cpu": 42.3, "mem_mb": 458.23046875, "timestamp": 1746033228339}
+{"type": "sys", "cpu": 43.4, "mem_mb": 496.41015625, "timestamp": 1746033229349}
+{"type": "sys", "cpu": 43.3, "mem_mb": 535.75390625, "timestamp": 1746033230352}
+{"type": "sys", "cpu": 41.2, "mem_mb": 436.0078125, "timestamp": 1746033231375}
+{"type": "sys", "cpu": 40.7, "mem_mb": 476.3359375, "timestamp": 1746033232383}
+{"type": "sys", "cpu": 40.9, "mem_mb": 516.6875, "timestamp": 1746033233397}
+{"type": "sys", "cpu": 44.0, "mem_mb": 555.55078125, "timestamp": 1746033234400}
+{"type": "sys", "cpu": 41.8, "mem_mb": 450.25, "timestamp": 1746033235402}
+{"type": "sys", "cpu": 44.7, "mem_mb": 492.2109375, "timestamp": 1746033236425}
+{"type": "mode_auto_switch", "mode": "auto", "timestamp": 1746033236549}
+{"type": "mode_auto_switch", "mode": "manual", "timestamp": 1746033236677}
+{"type": "mode_auto_switch", "mode": "auto", "timestamp": 1746033237358}
+{"type": "sys", "cpu": 46.3, "mem_mb": 524.875, "timestamp": 1746033237431}
+{"type": "mode_auto_switch", "mode": "manual", "timestamp": 1746033237755}
+{"type": "mode_auto_switch", "mode": "auto", "timestamp": 1746033237903}
+{"type": "sys", "cpu": 57.3, "mem_mb": 536.4296875, "timestamp": 1746033238460}
+{"type": "ap_switch", "bssid": "B8:11:4B:BF:37:0E", "timestamp": 1746033238530}
+{"type": "sys", "cpu": 58.3, "mem_mb": 412.45703125, "timestamp": 1746033239484}
+{"type": "sys", "cpu": 60.4, "mem_mb": 413.3203125, "timestamp": 1746033240488}
+{"type": "sys", "cpu": 58.4, "mem_mb": 416.73046875, "timestamp": 1746033241500}
+{"type": "sys", "cpu": 61.2, "mem_mb": 412.02734375, "timestamp": 1746033242507}
+{"type": "sys", "cpu": 58.3, "mem_mb": 413.58203125, "timestamp": 1746033243530}
+{"type": "sys", "cpu": 56.3, "mem_mb": 413.703125, "timestamp": 1746033244542}
+{"type": "sys", "cpu": 56.0, "mem_mb": 412.66796875, "timestamp": 1746033245545}
+{"type": "sys", "cpu": 54.7, "mem_mb": 412.74609375, "timestamp": 1746033246548}
+{"type": "sys", "cpu": 58.7, "mem_mb": 412.3671875, "timestamp": 1746033247554}
+{"type": "sys", "cpu": 54.4, "mem_mb": 416.6796875, "timestamp": 1746033248593}
+{"type": "mode_auto_switch", "mode": "manual", "timestamp": 1746033248929}
+{"type": "sys", "cpu": 49.1, "mem_mb": 446.8671875, "timestamp": 1746033249604}
+{"type": "sys", "cpu": 44.6, "mem_mb": 471.1171875, "timestamp": 1746033250608}
+{"type": "sys", "cpu": 41.9, "mem_mb": 469.9375, "timestamp": 1746033251658}
