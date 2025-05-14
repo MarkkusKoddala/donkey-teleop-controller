@@ -49,12 +49,11 @@ pip install opencv-contrib-python-headless==4.5.1.48 --extra-index-url https://w
 
 ---
 
-## 4. lisa `myconfig.py` faili järgmine rida
+## 4. Asenda `myconfig.py` fail
 
-Ava `myconfig.py` ja lisa (või muuda) järgmine seadistus:
 
 ```python
-USE_CUSTOM_CONTROLLER = True
+cp my_preconfig.py myconfig.py
 ```
 
 ---
