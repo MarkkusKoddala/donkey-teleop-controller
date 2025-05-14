@@ -40,9 +40,9 @@ class TeleopControlPart:
         self.loop = asyncio.new_event_loop()
         self._start_event_loop_in_thread()
 
-        self.car_control_manager = TeleopDecisionManager()
+        self.teleop_decision_manager = TeleopDecisionManager()
 
-        self.ws_handler = WebSocketHandler(self.loop, self.car_control_manager)
+        self.ws_handler = WebSocketHandler(self.loop, self.teleop_decision_manager)
         asyncio.run_coroutine_threadsafe(self.start_http_server(), self.loop)
         self.http_handler = ControlAPIHandler(self)
 
@@ -92,8 +92,7 @@ class TeleopControlPart:
             resized_cam_image_array = cv2.resize(cam_image_array, (160, 120))
 
         # False at the end is about whether to record or no
-        angle, throttle, mode, recording = self.car_control_manager.get_active_control(cam_image_array)
-
+        angle, throttle, mode, recording = self.teleop_decision_manager.get_active_control(cam_image_array)
         return angle, throttle, mode, recording, resized_cam_image_array
 
     def _run_async_task(self, coroutine):
