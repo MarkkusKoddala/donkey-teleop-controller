@@ -41,7 +41,7 @@ source env/bin/activate
 pip install -r requirements.txt
 ```
 
-Kui kasutad TensorFlow’i ARM versiooni (nt Raspberry Pi puhul), paigalda see käsitsi:
+Lisaks tuleb jooksutada seda:
 
 ```bash
 pip install opencv-contrib-python-headless==4.5.1.48 --extra-index-url https://www.piwheels.org/simple
