@@ -21,21 +21,9 @@ Esmalt klooni oma kohandatud DonkeyCar projekt:
 git clone https://github.com/MarkkusKoddala/donkey-teleop-controller.git
 cd donkey-teleop-controller
 ```
-
-(Vaheta link oma GitHub repo vastu.)
-
 ---
 
-## 2. aktiveeri virtuaalkeskkond
-
-Aktiveeri olemasolev keskkond, mille lõid donkeycari installides ja projekti luues:
-```bash
-source env/bin/activate
-```
-
----
-
-## 3. paigalda vajalikud sõltuvused
+## 2. paigalda vajalikud sõltuvused
 
 ```bash
 pip install -r requirements.txt
@@ -49,7 +37,7 @@ pip install opencv-contrib-python-headless==4.5.1.48 --extra-index-url https://w
 
 ---
 
-## 4. Asenda `myconfig.py` fail
+## 3. Asenda `myconfig.py` fail
 
 
 ```python
@@ -58,7 +46,7 @@ cp my_preconfig.py myconfig.py
 
 ---
 
-## 6. muuda `manage.py` faili
+## 4. muuda `manage.py` faili
 
 Ava `manage.py` ja leia funktsioon `add_user_controller(...)`. Lisa funktsiooni algusesse:
 
@@ -81,14 +69,14 @@ if cfg.USE_CUSTOM_CONTROLLER:
 
 ---
 
-## 7. käivita auto
+## 5. käivita auto
 
 ```bash
 python manage.py drive
 ```
 ---
 
-## 8. (valikuline) kasuta kaasasolevat mudelit
+## 6. (valikuline) kasuta kaasasolevat mudelit
 Kaustas resources on kaasas eelnevalt treenitud mudel, nt delta_model.h5. Saad seda kasutada testimiseks järgmise käsuga:
 ```bash
 python manage.py drive --model=resources/delta_model.h5
