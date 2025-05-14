@@ -44,7 +44,7 @@ pip install -r requirements.txt
 Kui kasutad TensorFlow’i ARM versiooni (nt Raspberry Pi puhul), paigalda see käsitsi:
 
 ```bash
-pip install tensorflow-2.5.0-cp37-none-linux_armv7l.whl
+pip install opencv-contrib-python-headless==4.5.1.48 --extra-index-url https://www.piwheels.org/simple
 ```
 
 ---
