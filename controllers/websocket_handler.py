@@ -104,10 +104,6 @@ class WebSocketHandler:
                     message = await websocket.recv()
                     await self._on_control_message(websocket, message)
 
-                except websockets.exceptions.ConnectionClosed:
-                    logger.info(f"Control client disconnected: {websocket.remote_address}")
-                    break
-
                 except Exception as e:
                     logger.error(f"Error handling control connection: {e}")
                     break

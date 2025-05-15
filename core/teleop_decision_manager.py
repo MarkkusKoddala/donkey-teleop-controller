@@ -61,7 +61,7 @@ class TeleopDecisionManager:
         """
 
 
-        if not self.autonomy_enabled:
+        if self.autonomy_enabled:
             return ControlSource.AUTONOMOUS
 
         if self.current_source == ControlSource.AUTONOMOUS:

@@ -43,8 +43,9 @@ class TeleopControlPart:
         self.teleop_decision_manager = TeleopDecisionManager()
 
         self.ws_handler = WebSocketHandler(self.loop, self.teleop_decision_manager)
-        asyncio.run_coroutine_threadsafe(self.start_http_server(), self.loop)
         self.http_handler = ControlAPIHandler(self)
+        self.http_handler.start()
+
 
         self.video_streamer = VideoStreamer(self.ws_handler)
 
@@ -63,26 +64,6 @@ class TeleopControlPart:
     def _start_event_loop(self) -> None:
         asyncio.set_event_loop(self.loop)
         self.loop.run_forever()
-
-    async def start_http_server(self):
-        app = self.http_handler.get_app()
-
-        cors = aiohttp_cors.setup(app, defaults={
-            "*": aiohttp_cors.ResourceOptions(
-                allow_credentials=True,
-                expose_headers="*",
-                allow_headers="*",
-            )
-        })
-
-        for route in list(app.router.routes()):
-            cors.add(route)
-
-        runner = web.AppRunner(app)
-        await runner.setup()
-        site = web.TCPSite(runner, '0.0.0.0', 8081)
-        await site.start()
-        print("Custom HTTP server started on port 8081 with CORS enabled.")
 
     def run_threaded(self, cam_image_array):
 
