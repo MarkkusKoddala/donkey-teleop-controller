@@ -1,40 +1,48 @@
 # DonkeyCar + kohandatud juhtimissüsteem (Teleop)
 
-Selles juhendis seadistame DonkeyCari koos kaugjuhtimise lahendusega, mis kasutab WebSocketi, HTTP API-t ja videopilti.
+Selles juhendis seadistame DonkeyCari kaugjuhtimise lahenduse, mis koosneb:
+
+* WebSocket-põhisest juhtimisliidesest
+* HTTP API-st (sh /autonomy, /recording, /ping)
+* Videopildi reaalajas saatmisest brauserisse
+* CORS-tuge ja Flask-serverit kasutavast haldusliidesest
 
 ---
 
 ## Eeltingimused
 
-* DonkeyCar on juba eelnevalt paigaldatud
-* DonkeyCar installitud (testitud versiooniga 4.3.22)
-* Raspberry Pi 4 platvorm
-* Soovituslikult töötad virtuaalkeskkonnas (venv)
+Seda setup’i on testitud ja kinnitatud järgmistel tingimustel:
+* Raspberry Pi 4 Model B Rev 1.5
+* Raspberry Pi OS (Debian 11 "Bullseye")
+* Python 3.9.2
+* DonkeyCar v5.0.0
 
 ---
 
 ## 1. Klooni projekt
 
-Esmalt klooni oma kohandatud DonkeyCar projekt:
+Esmalt klooni projekt:
 
 ```bash
 git clone https://github.com/MarkkusKoddala/donkey-teleop-controller.git
+```
+---
+
+## 2. Loo sõiduki projekt
+
+Loo sõiduki projekt samasse kausta:
+
+```bash
+donkeycar createcar --path ./donkey-teleop-controller/
 cd donkey-teleop-controller
 ```
 ---
 
-## 2. paigalda vajalikud sõltuvused
+## 3. paigalda vajalikud sõltuvused
 
 ```bash
 pip install -r requirements.txt
 ```
-
-Lisaks tuleb jooksutada seda:
-
-```bash
-pip install opencv-contrib-python-headless==4.5.1.48 --extra-index-url https://www.piwheels.org/simple
-```
-
 ---
 
 ## 3. Asenda `myconfig.py` fail
@@ -52,7 +60,7 @@ Ava `manage.py` ja leia funktsioon `add_user_controller(...)`. Lisa funktsiooni 
 
 ```python
 if cfg.USE_CUSTOM_CONTROLLER:
-    from controller.teleop_control_part import TeleopControlPart
+    from core.teleop_control_part import TeleopControlPart
 
     controller = TeleopControlPart(cfg)
 
@@ -67,6 +75,7 @@ if cfg.USE_CUSTOM_CONTROLLER:
     return controller
 ```
 
+Tuleb arvestada, et mõnel DonkeyCari versioonil on liidese lisamine natukene teistmoodi.
 ---
 
 ## 5. käivita auto
